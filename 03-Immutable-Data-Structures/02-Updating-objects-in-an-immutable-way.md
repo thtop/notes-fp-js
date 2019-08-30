@@ -39,12 +39,12 @@ const meal = {
   description: 'Breakfast'
 };
 
-const updatedMeal = {
+const addedCalories = {
   ...meal,
   calories: 600
 };
 
-console.log(meal, updatedMeal);
+console.log(meal, addedCalories);
 ```
 
 ---
