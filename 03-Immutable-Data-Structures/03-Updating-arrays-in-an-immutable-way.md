@@ -1,6 +1,6 @@
 # Updating arrays, in an immutable way
 
-## Spread syntax (Adding)
+## Adding Array - Spread syntax
 
 ```js
 const meals = [
@@ -20,7 +20,7 @@ console.log(meals, updatedMeals);
 
 ---
 
-## Updating Array
+## Updating Array - map()
 
 ```js
 const numbers = [1, 2, 3];
@@ -64,7 +64,7 @@ console.log(add, add === otherAdd); // [Function: add] true
 
 ---
 
-## Updating (map)
+## Updating Array - map()
 
 ```js
 const meals = [
@@ -99,7 +99,7 @@ console.log(updatedMealDes);
 
 ---
 
-## Removing (filter)
+## Removing Array - filter
 
 ```js
 const meals = [
