@@ -1,6 +1,6 @@
 # Updating arrays, in an immutable way
 
-#### Spread syntax (Adding)
+## Spread syntax (Adding)
 
 ```js
 const meals = [
@@ -36,7 +36,7 @@ console.log(doubledNumbers); // [ 2, 4, 6 ]
 
 ---
 
-#### Functions
+## Functions
 
 - Transform Values
 - Functions are Values
@@ -64,7 +64,7 @@ console.log(add, add === otherAdd); // [Function: add] true
 
 ---
 
-#### Updating (map)
+## Updating (map)
 
 ```js
 const meals = [
@@ -99,7 +99,7 @@ console.log(updatedMealDes);
 
 ---
 
-#### Removing (filter)
+## Removing (filter)
 
 ```js
 const meals = [
@@ -126,7 +126,7 @@ console.log(filteredMeals);
 
 ---
 
-#### Practice
+## Practice
 
 - [knowthen.com/fp5](https://jsbin.com/pumexiq/edit?js,console)
 - [Solution](https://jsbin.com/nevonet/1/edit?js,console)
