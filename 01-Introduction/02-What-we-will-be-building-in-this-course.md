@@ -1,6 +1,6 @@
 # What we'll be building in this course
 
-#### Philosophy On Learinng
+## Philosophy On Learinng
 
 - Quantity | Quality
 - Better Goal
@@ -8,7 +8,9 @@
 - Spaced Repetition
 - Interleaving
 
-#### Imagine
+---
+
+## Imagine
 
 - 3 Things To Learn
 - Skills: A, B and C
@@ -18,7 +20,9 @@
 > Learning how to learn is the best skill you can have as a software developer because as a software developer you'll constantly be learning new things.
 > -- James Moore
 
-#### 5 Apps
+---
+
+## 5 Apps
 
 1. Calorie Counting App
 2. Temperature Converter App

@@ -9,13 +9,17 @@
 | Team       | Work       |
 | Customers  | Complaints |
 
-#### 80/20% & JavaScript?
+---
+
+## 80/20% & JavaScript?
 
 | 20%                 | 80%          |
 | ------------------- | ------------ |
 | JavaScript Features | Code Written |
 
-#### Should You Spend Equal Time...
+---
+
+## Should You Spend Equal Time...
 
 - Figure out the 20%
 - Master It!

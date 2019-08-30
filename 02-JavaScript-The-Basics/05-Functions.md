@@ -1,6 +1,6 @@
 # Functions
 
-#### Not functions
+## Not functions
 
 ```js
 const grade1 = 50 + Math.random() * 50.0;
@@ -50,7 +50,7 @@ if (grade3 >= 90) {
 
 ---
 
-#### Functions
+## Functions
 
 ```js
 const grade1 = 50 + Math.random() * 50.0;
@@ -83,7 +83,7 @@ function letterGrade(grade) {
 
 ---
 
-#### Exercise
+## Exercise
 
 - [knowthen.com/fp3](https://jsbin.com/nobuloc/edit?js,console)
 

@@ -4,28 +4,35 @@
 
 ```js
 const meals = [
-  { description: "Breakfast", calries: 460 },
-  { description: "Snack", calries: 220 }
+  { description: 'Breakfast', calries: 460 },
+  { description: 'Snack', calries: 220 }
 ];
 
 const meal1 = meals[0];
 console.log(meal1);
 ```
 
-#### Programmatically
+---
+
+## Programmatically
 
 - Add
 - Update
 - Remove
 
-#### JavaScript Primitive Types
+---
+
+## JavaScript Primitive Types
 
 - String
 - Number
 - Boolean
 - undefined
 
-#### Comples Types
+---
+
+## Comples Types
+
 ```js
 // object literals
  { description: "Snack", calries: 220 }

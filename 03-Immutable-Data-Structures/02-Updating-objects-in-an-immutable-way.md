@@ -10,7 +10,9 @@
   - Every program has state
   - State -> Date Changed / Mutated
 
-#### How To Make changes Object (records)
+---
+
+## How To Make changes Object (records)
 
 ```js
 const meal = {
@@ -27,7 +29,9 @@ const updatedMeal = {
 console.log(meal, updatedMeal);
 ```
 
-#### Spread Operator (adding)
+---
+
+## Spread Operator (adding)
 
 ```js
 const meal = {
@@ -43,7 +47,9 @@ const updatedMeal = {
 console.log(meal, updatedMeal);
 ```
 
-#### Spread Operator (updating)
+---
+
+## Spread Operator (updating)
 
 ```js
 const meal = {
@@ -60,7 +66,9 @@ const updatedMeal = {
 console.log(meal, updatedMeal);
 ```
 
-#### Destructuring + Rest
+---
+
+## Destructuring + Rest
 
 ```js
 const meal = {
@@ -85,7 +93,9 @@ const { description, calories } = updatedMeal;
 console.log(description, calories); // Brunch 600
 ```
 
-#### Destructuring + Rest (deleting)
+---
+
+## Destructuring + Rest (deleting)
 
 ```js
 const meal = {
@@ -107,7 +117,9 @@ console.log(mealWithoutId);
 // { description: 'Brunch', calories: 600 }
 ```
 
-#### Practice
+---
+
+## Practice
 
 - [knowthen.com/fp4](https://jsbin.com/sudefuc/edit?js,console)
 - [solution](https://jsbin.com/sunewil/edit?js,console)

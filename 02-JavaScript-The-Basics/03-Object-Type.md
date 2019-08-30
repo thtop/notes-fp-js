@@ -1,6 +1,6 @@
 # Object Type
 
-#### Grouped
+## Grouped
 
 | Meal      | Calories |
 | --------- | -------- |
@@ -12,7 +12,7 @@
 
 ---
 
-#### Data Structure (Object Literal) -> "Record"
+## Data Structure (Object Literal) -> "Record"
 
 | Meal      | Calories |
 | --------- | -------- |
@@ -22,7 +22,7 @@
 
 ```js
 const meal = {
-  description: "Breakfast",
+  description: 'Breakfast',
   calories: 180,
   date: new Date(2020, 0, 1)
 };
@@ -35,7 +35,7 @@ console.log(meal.date.toString()); // Wed Jan 01 2020 00:00:00 GMT+0700 (Indochi
 
 ---
 
-#### Exercises
+## Exercises
 
 - [knowthen.com/fp2](https://jsbin.com/desugo/1/edit?js,console)
 - [Answer](https://jsbin.com/cojacal/1/edit?js,console)
@@ -47,7 +47,7 @@ console.log(meal.date.toString()); // Wed Jan 01 2020 00:00:00 GMT+0700 (Indochi
 // print both the snacks description
 // and calories to the console
 const meal = {
-  description: "Snack",
+  description: 'Snack',
   calories: 180
 };
 console.log(meal.description); // Snack

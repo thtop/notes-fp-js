@@ -19,13 +19,13 @@
 
 ---
 
-#### Number & String
+## Number & String
 
 ```js
 const calories = 180;
 console.log(calories);
 
-const calories2 = "180";
+const calories2 = '180';
 console.log(calories2);
 
 // plus
@@ -33,7 +33,9 @@ console.log(calories + 1); // 181  (number)
 console.log(calories2 + 1); // 1801 (string)
 ```
 
-#### Boolean
+---
+
+## Boolean
 
 ```js
 const showForm = false;

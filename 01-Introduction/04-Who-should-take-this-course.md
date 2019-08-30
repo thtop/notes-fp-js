@@ -6,7 +6,9 @@
   - Familiar with HTML
   - Familiar with CSS
 
-#### Functional Programing???
+---
+
+## Functional Programing???
 
 - Setoid
 - Function Composition
