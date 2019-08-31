@@ -1,6 +1,6 @@
 # Introduction to Currying
 
-## Function To Transform Array - map
+## Function To Transform Array - map()
 
 ```js
 // greet -> Higher-Order fn (return function)
