@@ -166,7 +166,9 @@ function greet(name) {
 // We needed the name to be the last parameter because
 // the name is what the map() function wolud be supplying
 ```
+
 ---
+
 ## Parameters That...
 
 - General -> Specialized Should Be First
@@ -183,8 +185,13 @@ console.log(greet('Good Afternoon')('Nate')); // Good Afternoon Nate
 
 // curriedFn(1)('two')(3)('four')(5);
 ```
+
 ---
+
 ## Ramda Library
+
+- [Ramda](https://ramdajs.com/)
+- [Ramda CDN](https://cdnjs.com/libraries/ramda)
 
 ```js
 // Alternative Function Syntax
