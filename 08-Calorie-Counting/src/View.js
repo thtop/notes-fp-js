@@ -2,6 +2,10 @@ import hh from 'hyperscript-helpers';
 import {
     h
 } from 'virtual-dom';
+import {
+    showFormMsg
+} from './Update';
+
 
 const {
     pre,
@@ -34,7 +38,8 @@ function buttonSet(dispatch) {
         }, 'Save'),
         button({
             className: 'f3 pv2 ph3 bn bg-light-gray dim',
-            type: 'button'
+            type: 'button',
+            onclick: () => dispatch(showFormMsg(false)),
         }, 'Cancel')
     ]);
 }
@@ -60,7 +65,8 @@ function formView(dispatch, model) {
 
     }
     return button({
-            className: 'f3 pv2 ph3 bg-blue white bn'
+            className: 'f3 pv2 ph3 bg-blue white bn',
+            onclick: () => dispatch(showFormMsg(true)),
         },
         'Add Meal'
     );
