@@ -9,6 +9,7 @@ import {
     caloriesInputMsg,
     saveMealMsg,
     deleteMealMsg,
+    editMealMsg,
 } from './Update';
 
 const {
@@ -52,6 +53,10 @@ function mealRow(dispatch, className, meal) {
             i({
                 className: 'ph1 fa fa-trash-o pointer',
                 onclick: () => dispatch(deleteMealMsg(meal.id)),
+            }),
+            i({
+                className: 'ph1 fa fa-pencil-square-o pointer',
+                onclick: () => dispatch(editMealMsg(meal.id)),
             }),
         ]),
     ]);
