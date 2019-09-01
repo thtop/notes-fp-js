@@ -6,6 +6,7 @@ import {
     showFormMsg,
     mealInputMsg,
     caloriesInputMsg,
+    saveMealMsg,
 } from './Update';
 
 
@@ -58,6 +59,10 @@ function formView(dispatch, model) {
     if (showForm) {
         return form({
                 className: 'w-100 mv2',
+                onsubmit: e => {
+                    e.preventDefault();
+                    dispatch(saveMealMsg);
+                },
             },
             [
                 fieldSet('Meal', description,
