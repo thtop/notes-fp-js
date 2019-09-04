@@ -79,3 +79,24 @@ const rootNode = document.getElementById('app');
 app(initModel, update, view, rootNode);
 
 ```
+
+---
+
+## index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Counter App</title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
+</head>
+
+<body class="pa4 f3">
+  <div id="app"></div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
+```
