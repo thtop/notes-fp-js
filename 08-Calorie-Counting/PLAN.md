@@ -45,3 +45,21 @@ calorie input
 click save (add / update)
 click edit icon
 click delete icon
+
+---
+
+## Styles
+```js
+const css = {
+    cssDiv: 'mw6 center',
+    cssH1: 'f2 pv2 bb',
+    cssLabel: 'db mb1',
+    cssInput: 'pa2 input-reset ba w-100 mb2',
+    cssBtnSave: 'f3 pv2 ph3 bg-blue white bn mr2 dim',
+    cssBtnCancel: 'f3 pv2 ph3 bg-light-gray bn dim',
+    cssForm: 'w-100 mv2',
+    cssBtnAdd: 'f3 pv2 ph3 bg-blue white bn',
+}
+
+export default css;
+```
