@@ -24,27 +24,27 @@ model = {
 
 ## View Functions
 
-view
-formView
-fieldSet
-buttonSet
-tableView
-tableHeader
-mealsBody
-mealRow
-cell
-totalRow
+- view
+  - formView
+    - fieldSet
+    - buttonSet
+  - tableView
+    - tableHeader
+    - mealsBody
+      - mealRow
+        - cell
+      - totalRow
 
 ---
 
 ## Update / Interactions
 
-click add meal
-meal input
-calorie input
-click save (add / update)
-click edit icon
-click delete icon
+1. click add meal
+2. meal input
+2. calorie input
+4. click save (add / update)
+5. click edit icon
+6. click delete icon
 
 ---
 
