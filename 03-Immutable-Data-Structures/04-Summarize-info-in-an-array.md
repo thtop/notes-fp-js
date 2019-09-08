@@ -86,7 +86,6 @@ const reviews = [
 // of the property is the number of reviews with that score.
 // for example, the answer should be shaped like this:
 // { 4.5: 1, 4: 2 ...}
-//
 
 const countGroupeByReview = reviews.reduce(groupBy, {});
 
