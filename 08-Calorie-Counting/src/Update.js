@@ -51,9 +51,7 @@ export function editMealMsg(editId) {
 function update(msg, model) {
     switch (msg.type) {
         case MSGS.SHOW_FORM: {
-            const {
-                showForm
-            } = msg;
+            const { showForm } = msg;
             return {
                 ...model,
                 showForm,
@@ -62,59 +60,36 @@ function update(msg, model) {
             };
         }
         case MSGS.MEAL_INPUT: {
-            const {
-                description
-            } = msg;
-            return {
-                ...model,
-                description
-            };
+            const { description } = msg;
+            return { ...model, description };
         }
         case MSGS.CALORIES_INPUT: {
             const calories = R.pipe(
                 parseInt,
                 R.defaultTo(0),
             )(msg.calories);
-            return {
-                ...model,
-                calories
-            };
+            return { ...model, calories };
         }
         case MSGS.SAVE_MEAL: {
-            const {
-                editId
-            } = model;
-            const updatedModel = editId !== null ?
-                edit(msg, model) :
-                add(msg, model);
-
+            const { editId } = model;
+            const updatedModel = editId !== null ? edit(msg, model) : add(msg, model);
             return updatedModel;
         }
         case MSGS.DELETE_MEAL: {
-            const {
-                id
-            } = msg;
+            const { id } = msg;
             const meals = R.filter(
                 meal => meal.id !== id,
                 model.meals
             );
-            return {
-                ...model,
-                meals
-            };
+            return { ...model, meals };
         }
         case MSGS.EDIT_MEAL: {
-            const {
-                editId
-            } = msg;
+            const { editId } = msg;
             const meal = R.find(
                 meal => meal.id === editId,
                 model.meals);
 
-            const {
-                description,
-                calories
-            } = meal;
+            const { description, calories } = meal;
 
             return {
                 ...model,
@@ -130,18 +105,8 @@ function update(msg, model) {
 }
 
 function add(msg, model) {
-    const {
-        nextId,
-        description,
-        calories
-    } = model;
-
-    const meal = {
-        id: nextId,
-        description,
-        calories
-    };
-
+    const { nextId, description, calories } = model;
+    const meal = { id: nextId, description, calories };
     const meals = [...model.meals, meal];
 
     return {
@@ -155,18 +120,10 @@ function add(msg, model) {
 }
 
 function edit(msg, model) {
-    const {
-        description,
-        calories,
-        editId
-    } = model;
+    const { description, calories, editId } = model;
     const meals = R.map(meal => {
         if (meal.id === editId) {
-            return {
-                ...meal,
-                description,
-                calories
-            };
+            return { ...meal, description, calories };
         }
         return meal;
     }, model.meals);
