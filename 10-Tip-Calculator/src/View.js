@@ -2,10 +2,7 @@ import * as R from 'ramda';
 import hh from 'hyperscript-helpers';
 import { h } from 'virtual-dom';
 
-import { 
-  billAmountInputMsg,
-  tipPercentInputMsg 
-} from './Update';
+import { billAmountInputMsg, tipPercentInputMsg } from './Update';
 
 const { 
   div, 
