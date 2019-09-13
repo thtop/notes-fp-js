@@ -4,13 +4,7 @@ import { h } from 'virtual-dom';
 
 import { billAmountInputMsg, tipPercentInputMsg } from './Update';
 
-const { 
-  div, 
-  h1, 
-  label, 
-  input, 
-  pre 
-} = hh(h);
+const { div, h1, label, input, pre } = hh(h);
 
 const round = places =>
   R.pipe(
